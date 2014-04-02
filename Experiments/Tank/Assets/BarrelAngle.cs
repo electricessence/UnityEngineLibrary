@@ -15,7 +15,7 @@ public class BarrelAngle : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		var delta = Mathf.Clamp (Input.GetAxis ("Mouse Y") * AngleMultiple, -MaximumStep, MaximumStep);
+		var delta = -Mathf.Clamp (Input.GetAxis ("Mouse Y") * AngleMultiple, -MaximumStep, MaximumStep);
 		_angle += delta;
 		_angle = Mathf.Clamp (_angle, -0.5f, 0);
 		transform.localRotation = new Quaternion(_angle, 0, 0, 1);

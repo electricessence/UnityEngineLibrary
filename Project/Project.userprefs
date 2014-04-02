@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Behaviors\Camera\MouseControlledCamera.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Experiments\Tank\Assets\BarrelAngle.cs">
     <Files>
-      <File FileName="Assets\Behaviors\Camera\MouseControlledCamera.cs" Line="33" Column="5" />
-      <File FileName="Assets\Behaviors\Utilities\InputUtility.cs" Line="27" Column="3" />
-      <File FileName="Assets\Behaviors\Character\SimpleCharacterMovement.cs" Line="10" Column="44" />
-      <File FileName="Assets\Behaviors\Utilities\VectorUtility.cs" Line="33" Column="1" />
+      <File FileName="..\Experiments\Tank\Assets\BarrelAngle.cs" Line="15" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
