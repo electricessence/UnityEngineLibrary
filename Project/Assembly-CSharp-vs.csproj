@@ -50,6 +50,9 @@
      <Compile Include="Assets\Behaviors\Character\SimpleCharacterMovement.cs" />
      <Compile Include="Assets\Behaviors\Utilities\InputUtility.cs" />
      <Compile Include="Assets\Behaviors\Utilities\VectorUtility.cs" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
